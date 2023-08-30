@@ -1,0 +1,15 @@
+Asp.Net 5.0
+Mssql
+
+Zincir Sorumluluk ilkesi (Chain Of Responsibility)
+
+Banka Yönlendirme Uygulamasý
+
+
+Approver => Onaylýyýcý
+
+
+(Chain Of Responsibility) nin Temeli Abstract Classýn olmasýndan geliyor
+
+
+iþlemin sonlanmasý gerçekleþene kadar devam etmesi bir zincir olarak birbirine devretmesi ve iþlemin tamamlandýðý noktada iþlemin return edilmesi olayýnýn özeti
