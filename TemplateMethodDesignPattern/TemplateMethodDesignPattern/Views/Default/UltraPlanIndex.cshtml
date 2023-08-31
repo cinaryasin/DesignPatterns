@@ -1,0 +1,21 @@
+﻿<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+@{
+    Layout = null;
+}
+
+
+<div class="container">
+    <br/>
+    <h3>Plan Adı : @ViewBag.v1</h3>
+    <h3>Kişi Sayısı : @ViewBag.v2</h3>
+    <h3>Plan Fiyatı : @ViewBag.v3</h3>
+    <h3>Plan İçeriği : @ViewBag.v4</h3>
+    <h3>Plan Çözünürlüğü : @ViewBag.v5</h3>
+<a href="/default/StandartPlanIndex/" class="btn btn-warning">
+        Standart Planı Göster
+    </a>
+    <a href="/default/BasicPlanIndex/" class="btn btn-success">
+        Basic Planı Göster
+    </a>
+</div>
