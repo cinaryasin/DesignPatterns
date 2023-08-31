@@ -1,0 +1,9 @@
+CQRS Command Query Responsibility Segregetion
+
+Okuma(Read) -> Select
+Yazma(Yazma) -> Insert, Delete vs. 
+
+Command -> Insert, Delete, Update (prop request)
+Query -> Select Parametreleri(prop request)
+Result -> Select (prop) Response
+Handler -> Crud 
